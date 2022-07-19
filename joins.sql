@@ -55,7 +55,7 @@ INNER JOIN student USING (student_id);
 --cross join n*m rows
 
 SELECT * FROM student
-CROSS JOIN studentteacherrelation;\
+CROSS JOIN studentteacherrelation;
 
 --or which is equivalent to
 
